@@ -23,17 +23,25 @@
             android:textSize="50sp" />
 
         <EditText
+            android:id="@+id/et_DisplayRegis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Displayname"
+            android:textSize="20sp" />
+
+        <EditText
             android:id="@+id/et_userRegis"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="username"
+            android:hint="Username"
             android:textSize="20sp" />
 
         <EditText
             android:id="@+id/et_passRegis"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="password"
+            android:hint="Password"
+            android:inputType="textPassword"
             android:textSize="20sp" />
 
         <EditText
@@ -41,16 +49,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="password confirm"
+            android:inputType="textPassword"
             android:textSize="20sp" />
 
 
     </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_regisRegis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Register"
-            android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/btn_regisRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Register" />
 
 </RelativeLayout>
